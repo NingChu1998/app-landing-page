@@ -1,7 +1,7 @@
 import React from 'react';
-import FastIcon from '/Users/ningchu/Desktop/landing-page/src/images/benefit/fast.svg';
-import InternetIcon from '/Users/ningchu/Desktop/landing-page/src/images/benefit/internet.svg';
-import SmartIcon from '/Users/ningchu/Desktop/landing-page/src/images/benefit/smart.svg';
+import FastIcon from '../images/benefit/fast.svg';
+import InternetIcon from '../images/benefit/internet.svg';
+import SmartIcon from '../images/benefit/smart.svg';
 
 function Benefits() {
   return (
