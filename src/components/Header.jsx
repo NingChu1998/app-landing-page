@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '/Users/ningchu/Desktop/landing-page/src/images/hero/wod.svg';
+import logo from '../images/hero/wod.svg';
 
 function Header() {
 

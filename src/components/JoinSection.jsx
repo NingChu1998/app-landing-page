@@ -1,5 +1,5 @@
 import React from 'react';
-import BackgroundImage from '/Users/ningchu/Desktop/landing-page/src/images/accomplishment.png';
+import BackgroundImage from '../images/cta/accomplishment.png';
 // import { ExternalLinkIcon } from '@heroicons/react/solid'
 
 function CTA() {

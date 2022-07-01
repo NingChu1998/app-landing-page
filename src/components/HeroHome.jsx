@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Aos from "aos";
-import BackgroundImage from '/Users/ningchu/Desktop/landing-page/src/images/hero/bg-png.png';
-import HeroImage from '/Users/ningchu/Desktop/landing-page/src/images/hero/hero_figure.png';
-import Mockup from '/Users/ningchu/Desktop/landing-page/src/images/iPhone-12.png';
+import BackgroundImage from '../images/hero/bg-png.png';
+import HeroImage from '../images/hero/hero_figure.png';
+import Mockup from '../images/hero/iPhone-12.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
-
-// import changeImage from '../utils/ChangeImage';
+import HerophoneImage1 from '../images/hero/herophone_1.webp';
+import HerophoneImage2 from '../images/hero/herophone_2.webp';
+import HerophoneImage3 from '../images/hero/herophone_3.webp';
 import "aos/dist/aos.css"
 
 
@@ -28,9 +29,9 @@ function HeroHome() {
             <div className='w-full h-full pt-5' >
               <div className=" relative bg-cover ml-5 p-2 md:p-2" style={{backgroundImage: `url(${Mockup})` }}>
                   <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false} showIndicators={false} showArrows={false} interval={2000}>
-                    <img className=" " src="./src/images/herophone_1.webp" />
-                    <img className=""src="./src/images/herophone_2.webp" />
-                    <img className="" src="./src/images/herophone_3.webp" />
+                    <img className=" " src={HerophoneImage1} />
+                    <img className=""src={HerophoneImage2} />
+                    <img className="" src={HerophoneImage3} />
                   </Carousel>
               </div>
             </div>
