@@ -27,7 +27,7 @@ const tiers = [
   },
   {
     title: 'Workout Tracking',
-    desc: 'Do you remeber what movements you did and how many weights you lift last time? WOD Squad can make you stay on top of your fitness goals and stay motivated to keep working out!',
+    desc: 'Do you remeber what movements you did and how many weights you lift last time?WOD Squad can make you stay on top of your fitness goals and stay motivated to keep working out!',
     image_desktop: IMG_Desk2,
     image_mobile: IMG_Phone2,
     slideId: 'item2',
@@ -45,7 +45,7 @@ const tiers = [
   },
   {
     title: 'Publish Your WOD',
-    desc: "Looking to stay on top of your fitness game?  Allows you to see any workout in advance, so you can always be in the know. Plus, it's a great way to stay motivated and inspired by.",
+    desc: "Looking to stay on top of your fitness game?Allows you to see any workout in advance, so you can always be in the know. Plus, it's a great way to stay motivated and inspired by.",
     image_desktop: IMG_Desk4,
     image_mobile: IMG_Phone4,
     slideId: 'item4',
@@ -88,11 +88,6 @@ function Features() {
               <h1 className='text-2xl md-text-7xl font-bold px-5 mb-3 md:text-3xl text-center  md:text-start'> {tier.title}</h1>
               <p className='text-1xl px-5 text-center md:text-left '>{tier.desc}
               </p>
-              <div className="text-xs mx-5 my-5 text-center ">
-                <Link to="/signup" className="center btn  text-center font-bold   hover:bg-gray-800 hover:text-white  hover:outline-none outline outline-blue-100 bg-gray-100 text-blue-100">
-                  <span>Learn More</span>
-                </Link>
-              </div>
             </div>
             {/* Images */}
             <div data-aos="zoom-in" data-aos-delay="300" key={tier.title} className="flex flex-col justify-center  w-full px-2 py-5 md: mt-0 object-center order-first">
@@ -105,7 +100,7 @@ function Features() {
               </div>
             </div>
             {/* <!-- Slider indicators --> */}
-            <ul className="flex flex-row center justify-center gap-5  md:hidden ">
+            <ul className="flex flex-row center mt-10 justify-center gap-5  md:hidden ">
               <a href="#item1"><li className={"rounded-full h-3 w-3" + ` ${tier.slideId === 'item1' ? "bg-blue-100" : "bg-black"} `}></li></a>
               <a href="#item2"><li className={"rounded-full h-3 w-3" + ` ${tier.slideId === 'item2' ? "bg-blue-100" : "bg-black"} `}></li></a>
               <a href="#item3"><li className={"rounded-full h-3 w-3" + ` ${tier.slideId === 'item3' ? "bg-blue-100" : "bg-black"} `}></li></a>

@@ -10,7 +10,7 @@ function CTA() {
           <section className="mx-auto container w-full py-10">
                 <div className="flex flex-col justify-center items-center">
                     <div className="font-mont md:text-3xl  font-black text-center text-gray-800 dark:text-white leading-snug lg:w-3/4">
-                      <h2>Start Your WOD Jounery Now</h2>
+                      <h2>Start Your WOD Journey Now</h2>
                     </div>
                     <div className="flex justify-center items-center mt-5">
                         <button className="font-bold focus:outline-none focus:ring-2 focus:ring-offset-2  hover:opacity-90 w-48 h-12 text-lg text-black bg-yellow-100 rounded">

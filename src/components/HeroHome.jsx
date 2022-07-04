@@ -5,9 +5,9 @@ import HeroImage from '../images/hero/hero_figure.png';
 import Mockup from '../images/hero/iPhone-12.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
-import HerophoneImage1 from '../images/hero/herophone_1.webp';
-import HerophoneImage2 from '../images/hero/herophone_2.webp';
-import HerophoneImage3 from '../images/hero/herophone_3.webp';
+import HerophoneImage1 from '../images/hero/herophone_1.png';
+import HerophoneImage2 from '../images/hero/herophone_2.png';
+import HerophoneImage3 from '../images/hero/herophone_3.png';
 import "aos/dist/aos.css"
 
 
@@ -21,8 +21,8 @@ function HeroHome() {
         <div data-aos="fade-right" data-aos-delay="500"  className="mt-15 flex flex-col justify-center items-center md:items-start w-full px-2 py-8 md: mt-0">
           <p className="hidden md:grid text-center text-gray-100 text-sm center px-5 ">Transform Everyday</p>
           <h1 className='text-center text-2xl md-text-7xl font-bold px-5 pt-3 md:text-3xl md:text-left'> Professional Workout Tracker</h1>
-          <p className=' text-1xl px-5 text-center p-3 md:text-left'>For advancing your workout life is scattered across tracking, sharing and inspiring.WOD Squad bring it all together.</p>
-          <button className='btn-sm font-bold w-2/3  mt-5 px-1 justify-self-center drop-shadow-xl  rounded-lg hover:scale-110 md:px-10 md:ml-5  md:w-1/2 md:font-bold  bg-gray-50 '><a href="https://www.wodsquad.app/feed">LET'S GO</a></button>
+          <p className=' text-1xl px-5 text-center p-3 md:text-left'>For advancing your workout life is scattered across tracking, sharing and inspiring.Superwod bring it all together.</p>
+          <button className='btn-sm font-bold w-2/3  mt-5 px-1 justify-self-center drop-shadow-xl  rounded-lg hover:scale-110 md:px-10 md:ml-5  md:w-1/2 md:font-bold  bg-gray-50 '><a href="#">LET'S GO</a></button>
         </div>
         <div className='flex flex-cols-2'>
           <div data-aos="fade-left" data-aos-delay="500" className="flex-auto mx-auto ml-5 w-2/5 md:pt-5 md:w-32 md:object-bottom ">

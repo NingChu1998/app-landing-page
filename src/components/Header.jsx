@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/hero/wod.svg';
+import logo from '../images/hero/superwod.svg';
 
 function Header() {
 
@@ -23,14 +23,14 @@ function Header() {
           <div className="flex-shrink-0 mr-2">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <img src={logo} className="App-logo" alt="logo" />
+              <img src={logo} className="App-logo h-6 w-6" alt="logo" />
             </Link>
           </div>
           <div className="flex-shrink-0 mr-4">
             <h1
-              className="text-sm font-oswald font-bold  tracking-wider leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-000 "
+              className="text-sm font-oswald  font-bold tracking-wider leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-000 "
             >
-              WOD SQUAD
+              SUPERWOD
             </h1>
           </div>
           {/* Site navigation */}
@@ -38,7 +38,7 @@ function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/signup" className="tracking-wider btn-sm text-xs font-bold  md:font-bold  hover:bg-gray-800 hover:text-white hover:drop-shadow-xl bg-yellow-100 text-gray-800 ml-3">
-                  <span>GET STARTED</span>
+                  <span>JOIN WAITLIST</span>
                 </Link>
               </li>
             </ul>

@@ -6,8 +6,8 @@ const tiers = [
   {
     name: 'Basic',
     href: '#',
-    priceMonthly: "Free",
-    description: 'Get Free version for 14 Days!',
+    priceMonthly: "$8.99",
+    description: 'Join the wailst now!',
     features: [
       'Unlimited TV Display',
       'Unlimited Wokrout Tracking',
@@ -17,8 +17,8 @@ const tiers = [
   {
     name: 'Premium',
     href: '#',
-    priceMonthly: "$9",
-    description: 'Investing in quality software make you progress fast',
+    priceMonthly: "$13.99",
+    description: 'Skip the Waitlist now!',
     features: [
       'Unlimited Backup Data',
       'Advanced Workout Performance',

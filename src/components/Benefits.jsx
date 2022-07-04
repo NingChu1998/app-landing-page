@@ -10,7 +10,7 @@ function Benefits() {
         <div className="">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center md:pb-5">
-            <h2 className="h4">WOD SQUAD empowers everyone</h2>
+            <h2 className="h4">SuperWOD empowers everyone</h2>
           </div>
           {/* Items */}
           <div className=" max-w-sm mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none ">
