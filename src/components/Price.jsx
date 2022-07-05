@@ -5,25 +5,25 @@ import { CheckIcon } from '@heroicons/react/outline'
 const tiers = [
   {
     name: 'Basic',
-    href: '#',
-    priceMonthly: "$8.99",
-    description: 'Join the wailst now!',
+    href: 'https://tally.so/r/w7RoMa',
+    priceMonthly: "Free",
     features: [
       'Unlimited TV Display',
       'Unlimited Wokrout Tracking',
       'Unlimited Workout Performance',
     ],
+    button: "Join Waitlist!",
   },
   {
     name: 'Premium',
     href: '#',
     priceMonthly: "$13.99",
-    description: 'Skip the Waitlist now!',
     features: [
       'Unlimited Backup Data',
       'Advanced Workout Performance',
       'Special Analytics Platform',
     ],
+    button: "Suscribe Now! 2",
   },
 ]
 
@@ -60,7 +60,7 @@ export default function PriceCard() {
                       {tier.priceMonthly}
                       <span className="ml-1 text-2xl font-medium text-gray-100">/mo</span>
                     </div>
-                    <p className="mt-5 text-lg font-bold text-gray-700">{tier.description}</p>
+                    
                   </div>
                   <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
                     <ul role="list" className="space-y-4">
@@ -76,10 +76,10 @@ export default function PriceCard() {
                     <div className="  rounded-md	outline outline-blue-100 shadow">
                       <a
                         href={tier.href}
-                        className="flex items-center justify-center px-5 py-3  text-base font-medium hover:bg-blue-100  "
+                        className="flex items-center justify-center px-5\ py-3  text-base font-medium hover:bg-blue-100  "
                         aria-describedby="tier-standard"
                       >
-                        Choose plan
+                        {tier.button}
                       </a>
                     </div>
                   </div>

@@ -37,9 +37,9 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <Link to="/signup" className="tracking-wider btn-sm text-xs font-bold  md:font-bold  hover:bg-gray-800 hover:text-white hover:drop-shadow-xl bg-yellow-100 text-gray-800 ml-3">
+                <a href="https://tally.so/r/w7RoMa" className="tracking-wider btn-sm text-xs font-bold  md:font-bold  hover:bg-gray-800 hover:text-white hover:drop-shadow-xl bg-yellow-100 text-gray-800 ml-3">
                   <span>JOIN WAITLIST</span>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
