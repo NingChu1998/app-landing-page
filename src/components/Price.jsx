@@ -16,14 +16,14 @@ const tiers = [
   },
   {
     name: 'Premium',
-    href: '#',
+    href: 'https://tally.so/r/wA7xQe',
     priceMonthly: "$13.99",
     features: [
       'Unlimited Backup Data',
       'Advanced Workout Performance',
       'Special Analytics Platform',
     ],
-    button: "Suscribe Now! 2",
+    button: "Suscribe Now! 2 Weeks Free",
   },
 ]
 
