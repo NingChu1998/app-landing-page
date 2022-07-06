@@ -83,14 +83,14 @@ function Features() {
         {/* <div key={tier.title} id={tier.slideId} className='carousel-item mx-auto center' > */}
           <div  className="grid  md:grid-cols-2  mx-auto  max-w-sm md:max-w-6xl my-10 pb-0 md:pb-0">
             {/* Text Section */}
-            <div data-aos="zoom-in" data-aos-delay="300" className={" flex flex-col justify-center md:items-start w-full px-10 md:mt-0" + `
+            <div data-aos="zoom-in" data-aos-delay="100" className={" flex flex-col justify-center md:items-start w-full px-10 md:mt-0" + `
                 ${tier.image_position === "left" ? "md:order-last" : "md:order-first"} `}>
               <h1 className='text-2xl md-text-7xl font-bold px-5 mb-3 md:text-3xl text-center  md:text-start'> {tier.title}</h1>
               <p className='text-1xl px-5 text-center md:text-left '>{tier.desc}
               </p>
             </div>
             {/* Images */}
-            <div data-aos="zoom-in" data-aos-delay="300" key={tier.title} className="flex flex-col justify-center  w-full px-2 py-5 md: mt-0 object-center order-first">
+            <div data-aos="zoom-in" data-aos-delay="100" key={tier.title} className="flex flex-col justify-center  w-full px-2 py-5 md: mt-0 object-center order-first">
               <div className="flex-auto hidden md:grid center  md:pt-10 md:w-200  ">
                 <img className='w-30'  src={tier.image_desktop} alt="" />
                 {/* <img className='w-full h-full px-6 md:hidden' src={tier.image_mobile} alt="" /> */}
