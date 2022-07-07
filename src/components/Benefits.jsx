@@ -1,7 +1,5 @@
 import React from 'react';
-// import FastIcon from '../images/benefit/fast.svg';
-// import InternetIcon from '../images/benefit/internet.svg';
-// import SmartIcon from '../images/benefit/smart.svg';
+
 
 function Benefits() {
   return (

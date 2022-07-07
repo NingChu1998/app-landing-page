@@ -23,7 +23,7 @@ const tiers = [
       'Advanced Workout Performance',
       'Special Analytics Platform',
     ],
-    button: "Suscribe Now! 2 Weeks Free",
+    button: "Suscribe Now! For 2 Weeks Free!!",
   },
 ]
 
