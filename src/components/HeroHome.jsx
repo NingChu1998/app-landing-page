@@ -1,14 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Aos from "aos";
-import BackgroundImage from '../images/hero/bg-png.webp';
-import HeroImage from '../images/hero/hero_figure.webp';
-import Mockup from '../images/hero/iPhone-12.webp';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
-import HerophoneImage1 from '../images/hero/herophone_1.webp';
-import HerophoneImage2 from '../images/hero/herophone_2.webp';
-import HerophoneImage3 from '../images/hero/herophone_3.webp';
-
 import "aos/dist/aos.css"
 
 
