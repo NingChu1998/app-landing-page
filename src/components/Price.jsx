@@ -13,6 +13,7 @@ const tiers = [
       'Unlimited Workout Performance',
     ],
     button: "Join Waitlist!",
+    id: "Basic",
   },
   {
     name: 'Premium',
@@ -24,6 +25,7 @@ const tiers = [
       'Special Analytics Platform',
     ],
     button: "Suscribe Now!!",
+    id:"Premium",
   },
 ]
 
@@ -46,7 +48,7 @@ export default function PriceCard() {
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className=" max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
               {tiers.map((tier) => (
-                <div key={tier.name} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                <div id={tier.id} key={tier.name} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div className="px-6 py-8 bg-gray-100 sm:p-10 sm:pb-6">
                     <div >
                       <h3

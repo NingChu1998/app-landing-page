@@ -13,7 +13,7 @@ const tiers = [
     image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/Performance_ucs1uo.webp",
     image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/Performance-2_noag5c.webp",
     slideId: 'item1',
-    dotId: '#item1',
+    dotId: '#workoutperformance',
     image_position: 'right',
   },
   {
@@ -22,7 +22,7 @@ const tiers = [
     image_desktop:"https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/wod_tracking_drqgjm.webp",
     image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/wod_tracking-2_uh9v1r.webp",
     slideId: 'item2',
-    dotId: '#item2',
+    dotId: '#workouttracking',
     image_position: 'left',
   },
   {
@@ -31,7 +31,7 @@ const tiers = [
     image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/wod_social_ipnwrn.webp",
     image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/wod_social-2_qonzar.webp",
     slideId: 'item3',
-    dotId: '#item3',
+    dotId: '#socialnetwork',
     image_position: 'right',
   },
   {
@@ -40,7 +40,7 @@ const tiers = [
     image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/Publish_chy4wv.webp",
     image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/Publish-2_wdfkmf.webp",
     slideId: 'item4',
-    dotId: '#item4',
+    dotId: '#publishwod',
     image_position: 'left',
   },
   {
@@ -49,7 +49,7 @@ const tiers = [
     image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/TV_trhppl.webp",
     image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/TV_trhppl.webp",
     slideId: 'item5',
-    dotId: '#item5',
+    dotId: '#tvmodule',
     image_position: 'right',
   },
   {
@@ -58,7 +58,7 @@ const tiers = [
     image_desktop:"https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/mac-2_hqn6q6.webp",
     image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/mac-2_hqn6q6.webp",
     slideId: 'item6',
-    dotId: '#item6',
+    dotId: '#workouteditor',
     image_position: 'left',
   },
 ]
@@ -70,7 +70,7 @@ function Features() {
     // <div className="bg-cover ml-auto h-full w-full  mx-auto scrollbar-hide carousel carousel-center   md:carousel-vertical "  >
     <div className="bg-cover ml-auto  w-full  mx-auto scrollbar-hide carousel carousel-center   md:carousel-vertical" >
       {tiers.map((tier) => (
-        <div key={tier.title} id={tier.slideId} className='carousel-item mx-auto center' >
+        <div key={tier.title} id={tier.dotId} className='carousel-item mx-auto center' >
         {/* <div key={tier.title} id={tier.slideId} className='carousel-item mx-auto center' > */}
           <div  className="grid  md:grid-cols-2  mx-auto  max-w-sm md:max-w-6xl my-10 pb-0 md:pb-0">
             {/* Text Section */}
