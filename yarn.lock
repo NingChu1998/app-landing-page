@@ -1372,11 +1372,6 @@
     "picocolors" "^1.0.0"
     "stable" "^0.1.8"
 
-"tailwind-scrollbar-hide@^1.1.7":
-  "integrity" "sha512-X324n9OtpTmOMqEgDUEA/RgLrNfBF/jwJdctaPZDzB3mppxJk7TLIDmOreEDm1Bq4R9LSPu4Epf8VSdovNU+iA=="
-  "resolved" "https://registry.npmjs.org/tailwind-scrollbar-hide/-/tailwind-scrollbar-hide-1.1.7.tgz"
-  "version" "1.1.7"
-
 "tailwindcss@^3.0", "tailwindcss@^3.0.15", "tailwindcss@>=3.0.0 || >= 3.0.0-alpha.1":
   "integrity" "sha512-OiHUsmOKQQEg/ocXaLIjk/kOz8EK2jF6iPuc1bQ4NsmhYl7sk70UDsGV02AJvBAAiJhinPCkDR8egT9qY+ulCw=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.17.tgz"

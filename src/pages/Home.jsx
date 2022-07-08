@@ -9,11 +9,11 @@ import PriceCard from '../components/Price';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden scrollbar-hide">
+    <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
       <Header />
       {/*  Page content */}
-      <main className="flex-grow scrollbar-hide"> 
+      <main className="flex-grow"> 
         <div className="h-full">
           <HeroHome />
           <Benefits />
