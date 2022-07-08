@@ -10,8 +10,16 @@ import AOS from 'aos';
 import Home from './pages/Home';
 import Faq from './pages/Faq';
 import Privacy from './pages/Privacy';
-
 import Terms from './pages/TermsService';
+import Benefits from './components/Benefits';
+import Feature from './components/Feature';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import HeroHome from './components/HeroHome';
+import JoinSection from './components/JoinSection';
+import Price from './components/Price';
+
+
 
 
 function App() {
@@ -39,6 +47,13 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/benefits" element={<Benefits />} />
+        <Route path="/feature" element={<Feature />} />
+        <Route path="/footer" element={<Footer />} />
+        <Route path="/header" element={<Header />} />
+        <Route path="/herohome" element={<HeroHome />} />
+        <Route path="/joinsection" element={<JoinSection />} />
+        <Route path="/price" element={<Price />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
     </>
