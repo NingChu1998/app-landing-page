@@ -2,16 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import IMG_Desk1 from '../images/features/Performance.png';
-import IMG_Phone1 from '../images/features/Performance-2.png';
-import IMG_Desk2 from '../images/features/wod_tracking.png';
-import IMG_Phone2 from '../images/features/wod_tracking-2.png';
-import IMG_Desk3 from '../images/features/wod_social.png';
-import IMG_Phone3 from '../images/features/wod_social-2.png';
-import IMG_Desk4 from '../images/features/Publish.png';
-import IMG_Phone4 from '../images/features/Publish-2.png';
-import IMG_Desk5 from '../images/features/TV.png';
-import IMG_Desk6 from '../images/features/mac-2.png';
+
 
 
 const tiers = [
@@ -19,8 +10,8 @@ const tiers = [
   {
     title: 'Workout Performance',
     desc: 'Do you understand your workout patterns?How do you know what things you have to  improve?Our Progression tracking show  your need and guide you to be a better self.',
-    image_desktop: IMG_Desk1,
-    image_mobile: IMG_Phone1,
+    image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/Performance_ucs1uo.webp",
+    image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/Performance-2_noag5c.webp",
     slideId: 'item1',
     dotId: '#item1',
     image_position: 'right',
@@ -28,8 +19,8 @@ const tiers = [
   {
     title: 'Workout Tracking',
     desc: 'Do you remeber what movements you did and how many weights you lift last time?WOD Squad can make you stay on top of your fitness goals and stay motivated to keep working out!',
-    image_desktop: IMG_Desk2,
-    image_mobile: IMG_Phone2,
+    image_desktop:"https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/wod_tracking_drqgjm.webp",
+    image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243585/Landing-page/wod_tracking-2_uh9v1r.webp",
     slideId: 'item2',
     dotId: '#item2',
     image_position: 'left',
@@ -37,8 +28,8 @@ const tiers = [
   {
     title: 'Social Network',
     desc: "Connect with other fitness enthusiasts around the world, you're bound to find others who share your interests and can help motivate you to reach your fitness goals.",
-    image_desktop: IMG_Desk3,
-    image_mobile: IMG_Phone3,
+    image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/wod_social_ipnwrn.webp",
+    image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/wod_social-2_qonzar.webp",
     slideId: 'item3',
     dotId: '#item3',
     image_position: 'right',
@@ -46,8 +37,8 @@ const tiers = [
   {
     title: 'Publish Your WOD',
     desc: "Looking to stay on top of your fitness game?Allows you to see any workout in advance, so you can always be in the know. Plus, it's a great way to stay motivated and inspired by.",
-    image_desktop: IMG_Desk4,
-    image_mobile: IMG_Phone4,
+    image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/Publish_chy4wv.webp",
+    image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/Publish-2_wdfkmf.webp",
     slideId: 'item4',
     dotId: '#item4',
     image_position: 'left',
@@ -55,8 +46,8 @@ const tiers = [
   {
     title: 'TV Module',
     desc: 'QRcode Check-in, Realtime Leaderboard, Timer, Resize easily and Remote Control make your gym more fun and mondern.',
-    image_desktop: IMG_Desk5,
-    image_mobile: IMG_Desk5,
+    image_desktop: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/TV_trhppl.webp",
+    image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/TV_trhppl.webp",
     slideId: 'item5',
     dotId: '#item5',
     image_position: 'right',
@@ -64,8 +55,8 @@ const tiers = [
   {
     title: 'Workout Editor',
     desc: "Using the latest NLP technology, the Workout Editor can help you build a custom workout quickly and easily, so you can get back to your busy life.",
-    image_desktop: IMG_Desk6,
-    image_mobile: IMG_Desk6,
+    image_desktop:"https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/mac-2_hqn6q6.webp",
+    image_mobile: "https://res.cloudinary.com/dng8o0y7y/image/upload/v1657243584/Landing-page/mac-2_hqn6q6.webp",
     slideId: 'item6',
     dotId: '#item6',
     image_position: 'left',
