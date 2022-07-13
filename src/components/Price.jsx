@@ -48,7 +48,7 @@ export default function PriceCard() {
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className=" max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
               {tiers.map((tier) => (
-                <div id={tier.id} key={tier.name} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                <div key={tier.name} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div className="px-6 py-8 bg-gray-100 sm:p-10 sm:pb-6">
                     <div >
                       <h3
@@ -75,7 +75,7 @@ export default function PriceCard() {
                         </li>
                       ))}
                     </ul>
-                    <div className="  rounded-md	outline outline-blue-100 shadow">
+                    <div className="  rounded-md	outline outline-blue-100 shadow" id={tier.id}>
                       <a
                         href={tier.href}
                         className="flex items-center justify-center px-5\ py-3  text-base font-medium hover:bg-blue-100  "
