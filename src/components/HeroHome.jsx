@@ -16,7 +16,7 @@ function HeroHome() {
           <p className="hidden md:grid text-center text-gray-100 text-sm center px-5 ">Transform Everyday</p>
           <h1 className='text-center text-2xl md-text-7xl font-bold px-5 pt-3 md:text-3xl md:text-left'> Professional Workout Tracker</h1>
           <p className=' text-1xl px-5 text-center p-3 md:text-left'>For advancing your workout life is scattered across tracking, sharing and inspiring.Superwod bring it all together.</p>
-          <a href="https://tally.so/r/w7RoMa" className='btn-sm font-bold w-2/3  mt-5 px-1 justify-self-center drop-shadow-xl  rounded-lg hover:scale-110 md:px-10 md:ml-5  md:w-1/2 md:font-bold  bg-gray-50 '><button id="hero_button" >LET'S GO</button></a>
+          <a href="https://tally.so/r/w7RoMa" id="hero_button" className='btn-sm font-bold w-2/3  mt-5 px-1 justify-self-center drop-shadow-xl  rounded-lg hover:scale-110 md:px-10 md:ml-5  md:w-1/2 md:font-bold  bg-gray-50 '><button>LET'S GO</button></a>
         </div>
         <div className='flex flex-cols-2'>
           <div data-aos="fade-left" data-aos-delay="300" className="flex-auto mx-auto ml-5 w-2/5 md:pt-5 md:w-32 md:object-bottom ">

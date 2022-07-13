@@ -75,11 +75,12 @@ export default function PriceCard() {
                         </li>
                       ))}
                     </ul>
-                    <div className="  rounded-md	outline outline-blue-100 shadow" id={tier.id}>
+                    <div className="rounded-md	outline outline-blue-100 shadow">
                       <a
                         href={tier.href}
                         className="flex items-center justify-center px-5\ py-3  text-base font-medium hover:bg-blue-100  "
                         aria-describedby="tier-standard"
+                        id={tier.id}
                       >
                         {tier.button}
                       </a>
