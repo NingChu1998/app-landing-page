@@ -14,7 +14,7 @@ function CTA() {
                     </div>
                     <div className="flex justify-center items-center mt-5">
                       <a href="https://tally.so/r/w7RoMa">
-                        <button id="cta" className="font-bold focus:outline-none focus:ring-2 focus:ring-offset-2  hover:opacity-90 w-48 h-12 text-lg text-black bg-yellow-100 rounded">
+                        <button id="cta_button" className="font-bold focus:outline-none focus:ring-2 focus:ring-offset-2  hover:opacity-90 w-48 h-12 text-lg text-black bg-yellow-100 rounded">
                           LET'S GO
                         </button>
                       </a>

@@ -13,7 +13,7 @@ const tiers = [
       'Unlimited Workout Performance',
     ],
     button: "Join Waitlist!",
-    id: "Basic",
+    id: "basic_button",
   },
   {
     name: 'Premium',
@@ -25,7 +25,7 @@ const tiers = [
       'Special Analytics Platform',
     ],
     button: "Suscribe Now!!",
-    id:"Premium",
+    id:"premium_button",
   },
 ]
 
