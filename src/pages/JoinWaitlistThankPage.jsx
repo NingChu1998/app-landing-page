@@ -1,5 +1,5 @@
 import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
+
 
 export default function joinwaitlistthankpage() {
     return (
@@ -13,7 +13,6 @@ export default function joinwaitlistthankpage() {
             <div className='bottom-0'>
                 <Footer />
             </div>
-            <Link to='../joinwaitlist-thankpage'></Link>
         </div>
     )
 }
