@@ -19,7 +19,7 @@ import HeroHome from './components/HeroHome';
 import JoinSection from './components/JoinSection';
 import Price from './components/Price';
 import Suscription from './pages/Suscription';
-import JoinWaitlist from './pages/JoinWaitlist'
+import JoinWaitlist from './pages/JoinWaitlist';
 
 
 
