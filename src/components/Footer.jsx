@@ -21,7 +21,7 @@ function Footer() {
             </li>
           </ul>
           {/* Copyrights note */}
-          <div className="text-center  text-sm text-gray-600 mr-4 ">© 2022 <Link to="/" className="text-sm text-gray-600 hover:underline">SuperWOD Athlete</Link>. All right reserved.</div>
+          <div className="text-center  text-sm text-gray-600 mr-4 ">© 2022 <Link to="../joinwaitlist-thankpage" className="text-sm text-gray-600 hover:underline">SuperWOD Athlete</Link>. All right reserved.</div>
         </div>
       </div>
     </footer>
