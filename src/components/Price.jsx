@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const tiers = [
   {
     name: 'Basic',
-    href: '/joinwaitlist',
+    href: '../joinwaitlist',
     priceMonthly: "Free",
     features: [
       'Unlimited TV Display',
@@ -18,7 +18,7 @@ const tiers = [
   },
   {
     name: 'Premium',
-    href: '/suscription',
+    href: '../suscription',
     priceMonthly: "$13.99",
     features: [
       'Unlimited Backup Data',
