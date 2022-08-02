@@ -20,6 +20,9 @@ import Suscription from './pages/Suscription';
 import JoinWaitlist from './pages/JoinWaitlist';
 import JoinSection from './components/JoinSection';
 import Price from './components/Price';
+import SuscriptionThankPage from './pages/SuscriptionThankPage';
+import JoinWaitlistThankPage from './pages/JoinWaitlistThankPage';
+
 
 
 
@@ -60,6 +63,8 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/suscription" element={<Suscription />} />
         <Route path="/joinwaitlist" element={<JoinWaitlist />} />
+        <Route path="/suscription-thankpage" element={<SuscriptionThankPage />} />
+        <Route path="/joinwaitlist-thankpage" element={<JoinWaitlistThankPage />} />
       </Routes>
     </>
   );
