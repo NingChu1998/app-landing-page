@@ -1,11 +1,12 @@
 import React from 'react'
 import { CheckIcon } from '@heroicons/react/outline'
+import { Link } from 'react-router-dom';
 
 
 const tiers = [
   {
     name: 'Basic',
-    href: 'https://tally.so/r/w7RoMa',
+    href: '../joinwaitlist',
     priceMonthly: "Free",
     features: [
       'Unlimited TV Display',
@@ -17,7 +18,7 @@ const tiers = [
   },
   {
     name: 'Premium',
-    href: 'https://tally.so/r/wA7xQe',
+    href: '../suscription',
     priceMonthly: "$13.99",
     features: [
       'Unlimited Backup Data',
@@ -76,14 +77,17 @@ export default function PriceCard() {
                       ))}
                     </ul>
                     <div className="rounded-md	outline outline-blue-100 shadow">
-                      <a
+                      {/* <a
                         href={tier.href}
                         className="flex items-center justify-center px-5\ py-3  text-base font-medium hover:bg-blue-100  "
                         aria-describedby="tier-standard"
                         id={tier.id}
                       >
                         {tier.button}
-                      </a>
+                      </a> */}
+                      <Link to={tier.href} className="flex items-center justify-center px-5\ py-3  text-base font-medium hover:bg-blue-100  " id={tier.id} >
+                      {tier.button}
+                      </Link>
                     </div>
                   </div>
                 </div>

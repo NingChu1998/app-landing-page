@@ -18,6 +18,8 @@ import Header from './components/Header';
 import HeroHome from './components/HeroHome';
 import JoinSection from './components/JoinSection';
 import Price from './components/Price';
+import Suscription from './pages/Suscription';
+import JoinWaitlist from './pages/JoinWaitlist'
 
 
 
@@ -53,6 +55,8 @@ function App() {
         <Route path="/header" element={<Header />} />
         <Route path="/herohome" element={<HeroHome />} />
         <Route path="/joinsection" element={<JoinSection />} />
+        <Route path="/suscription" element={<Suscription />} />
+        <Route path="/joinwaitlist" element={<JoinWaitlist />} />
         <Route path="/price" element={<Price />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
