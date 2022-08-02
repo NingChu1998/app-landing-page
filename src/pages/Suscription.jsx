@@ -1,4 +1,3 @@
-a
 export default function suscription() {
   return (
     <div className="bg-gray-50 m-0 overflow-hidden w-full h-screen ">
